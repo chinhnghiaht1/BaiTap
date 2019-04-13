@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".trangChu">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="@dimen/chieurnglogo"
+            android:layout_height="@dimen/chieucaologo"
+            android:layout_margin="@dimen/canle10"
+            android:padding="@dimen/canle10"
+            android:src="@drawable/logosv" />
+
+        <TextView
+            android:id="@+id/tvchao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/canle20"
+            android:layout_toRightOf="@+id/logo"
+            android:text="Xin Chao"
+            android:textColor="@color/mauchu"
+            android:textSize="@dimen/canle20" />
+
+        <TextView
+            android:id="@+id/tvuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvchao"
+            android:layout_marginLeft="@dimen/canle20"
+            android:layout_toRightOf="@+id/logo"
+            android:hint="ten user"
+            android:textColor="@color/mauchu"
+            android:textSize="@dimen/canle20" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btGT"
+            android:onClick="MoFragment"
+            android:layout_width="@dimen/chieurongnut"
+            android:layout_height="@dimen/chieucaohinh"
+            android:text="@string/gioithieu" />
+
+        <Button
+            android:id="@+id/btTK"
+            android:onClick="MoFragment"
+            android:layout_width="@dimen/chieurongnut"
+            android:layout_height="@dimen/chieucaohinh"
+            android:text="@string/danhsach" />
+
+        <Button
+            android:id="@+id/btHD"
+            android:onClick="MoFragment"
+            android:layout_width="@dimen/chieurongnut"
+            android:layout_height="@dimen/chieucaohinh"
+            android:text="@string/hoatdong" />
+
+        <Button
+            android:id="@+id/btMaps"
+            android:onClick="MoFragment"
+            android:layout_width="@dimen/chieurongnut"
+            android:layout_height="@dimen/chieucaohinh"
+            android:text="Maps"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:id="@+id/layoutFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

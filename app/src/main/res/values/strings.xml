@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tra Cứu Địa Điểm Trường</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_trang_chu">trangChu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="hoatdong">Hoạt Động</string>
+    <string name="gioithieu">Giới Thiệu</string>
+    <string name="danhsach">Danh Sách</string>
+
+    <string name="khauhieu">Chắp Cánh Các Ước Mơ</string>
+
+    <string name="signinwith"> Sign in with </string>
+
+    <string name="title_activity_taikhoan_activiti">taikhoan_activiti</string>
+    <string name="van">    đoàn kết, tập hợp rộng rãi mọi sinh viên Việt Nam cùng phấn đấu học tập, rèn luyện vì mục tiêu, lý tưởng của Đảng Cộng sản Việt Nam và cố lãnh tụ Hồ Chí Minh; góp phần xây dựng nước Việt Nam hòa bình, độc lập, giàu mạnh, công bằng, dân chủ, văn minh theo định hướng xã hội chủ nghĩa, vì quyền lợi hợp pháp, chính đáng của sinh viên; đoàn kết và hợp tác bình đẳng với các tổ chức sinh viên, thanh niên tiến bộ và nhân dân các nước trên thế giới vì mục tiêu hòa bình, độc lập dân tộc, dân chủ và tiến bộ xã hội</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="cntt"></string>
+    <string name="diachicntt">Đường Z 115, Quyết Thắng, Thành phố Thái Nguyên, Thái Nguyên 250000, Việt Nam</string>
+</resources>

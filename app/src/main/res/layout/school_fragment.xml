@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#9BB0C0">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvKhauHieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+
+        >
+        <RelativeLayout
+            android:background="#C1D6E9"
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+
+            >
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="@dimen/chieurnglogo"
+                android:layout_height="@dimen/chieucaologo"
+                android:layout_margin="@dimen/canle10"
+                android:padding="@dimen/canle10"
+                android:src="@drawable/logosv" />
+
+            <TextView
+                android:id="@+id/tvchao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/canle10"
+                android:layout_toRightOf="@+id/logo"
+                android:text="Hội Sinh Viên Việt Nam"
+                android:textColor="@color/mauchu"
+                android:textSize="@dimen/canle20" />
+
+            <TextView
+                android:id="@+id/tvuser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvchao"
+                android:layout_marginLeft="@dimen/canle20"
+                android:layout_toRightOf="@+id/logo"
+                android:text="@string/khauhieu"
+                android:textColor="@color/mauchu"
+                android:textSize="@dimen/canle20" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_below="@id/cvKhauHieu"
+        android:id="@+id/fragTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/van"
+        android:textSize="@dimen/canle20"
+        />
+
+
+
+
+</RelativeLayout>

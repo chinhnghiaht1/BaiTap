@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView
+       android:id="@+id/tvdanhsach"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:paddingLeft="125dp"
+       android:text="Danh Sach cac Truong"
+       android:textColor="@color/mauchu"
+       android:textSize="@dimen/kichthuocchu15" />
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rvSchool"
+       android:layout_below="@+id/tvdanhsach"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
